@@ -1,5 +1,11 @@
+import { Counter } from './features/counter/Counter'
+
 const App = () => {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>
+  return (
+    <div className="flex min-h-screen flex-col items-center justify-center">
+      <Counter />
+    </div>
+  )
 }
 
 export default App
